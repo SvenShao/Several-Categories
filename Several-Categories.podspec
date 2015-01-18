@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Several-Categories"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Several-Categories contain some useful categories."
 
   s.description  = "Several-Categories contain some useful categories.Note: it is writed for myself- -"
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '5.0'
 
-  s.source       = { :git => "https://github.com/SvenShao/Several-Categories.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/SvenShao/Several-Categories.git", :tag => "0.0.2" }
 
   s.source_files  = "Several-Categories", "Several-Categories/**/*.{h,m}"
   s.exclude_files = "Several-Categories/Exclude"

@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		26467C5D1A67468F00562C33 /* UIImage+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 26467C5C1A67468F00562C33 /* UIImage+Extention.m */; };
-		26467C961A67622700562C33 /* UIView+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 26467C951A67622700562C33 /* UIView+Extention.m */; };
-		26467C991A6762F900562C33 /* NSString+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 26467C981A6762F900562C33 /* NSString+Extention.m */; };
+		265B898D1A6BB2A800EA2DF3 /* JPinYinUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 265B898C1A6BB2A800EA2DF3 /* JPinYinUtil.m */; };
+		265B89921A6BB2B600EA2DF3 /* NSString+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 265B898F1A6BB2B600EA2DF3 /* NSString+Extention.m */; };
+		265B89931A6BB2B600EA2DF3 /* UIView+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 265B89911A6BB2B600EA2DF3 /* UIView+Extention.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,12 +29,12 @@
 		26467C411A67461900562C33 /* libSeveral-Categories.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libSeveral-Categories.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26467C5B1A67468F00562C33 /* UIImage+Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extention.h"; sourceTree = "<group>"; };
 		26467C5C1A67468F00562C33 /* UIImage+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extention.m"; sourceTree = "<group>"; };
-		26467C941A67622700562C33 /* UIView+Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extention.h"; sourceTree = "<group>"; };
-		26467C951A67622700562C33 /* UIView+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extention.m"; sourceTree = "<group>"; };
-		26467C971A6762F900562C33 /* NSString+Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extention.h"; sourceTree = "<group>"; };
-		26467C981A6762F900562C33 /* NSString+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extention.m"; sourceTree = "<group>"; };
-		26467C9C1A6763C500562C33 /* JPinYinUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPinYinUtil.h; sourceTree = "<group>"; };
-		26467C9D1A6763C500562C33 /* JPinYinUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPinYinUtil.m; sourceTree = "<group>"; };
+		265B898B1A6BB2A800EA2DF3 /* JPinYinUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPinYinUtil.h; sourceTree = "<group>"; };
+		265B898C1A6BB2A800EA2DF3 /* JPinYinUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPinYinUtil.m; sourceTree = "<group>"; };
+		265B898E1A6BB2B600EA2DF3 /* NSString+Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extention.h"; sourceTree = "<group>"; };
+		265B898F1A6BB2B600EA2DF3 /* NSString+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extention.m"; sourceTree = "<group>"; };
+		265B89901A6BB2B600EA2DF3 /* UIView+Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extention.h"; sourceTree = "<group>"; };
+		265B89911A6BB2B600EA2DF3 /* UIView+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extention.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,12 +68,12 @@
 			isa = PBXGroup;
 			children = (
 				26467C9A1A67638800562C33 /* tools */,
-				26467C941A67622700562C33 /* UIView+Extention.h */,
-				26467C951A67622700562C33 /* UIView+Extention.m */,
 				26467C5B1A67468F00562C33 /* UIImage+Extention.h */,
 				26467C5C1A67468F00562C33 /* UIImage+Extention.m */,
-				26467C971A6762F900562C33 /* NSString+Extention.h */,
-				26467C981A6762F900562C33 /* NSString+Extention.m */,
+				265B898E1A6BB2B600EA2DF3 /* NSString+Extention.h */,
+				265B898F1A6BB2B600EA2DF3 /* NSString+Extention.m */,
+				265B89901A6BB2B600EA2DF3 /* UIView+Extention.h */,
+				265B89911A6BB2B600EA2DF3 /* UIView+Extention.m */,
 			);
 			path = "Several-Categories";
 			sourceTree = "<group>";
@@ -88,8 +89,8 @@
 		26467C9B1A6763C500562C33 /* JPinyin */ = {
 			isa = PBXGroup;
 			children = (
-				26467C9C1A6763C500562C33 /* JPinYinUtil.h */,
-				26467C9D1A6763C500562C33 /* JPinYinUtil.m */,
+				265B898B1A6BB2A800EA2DF3 /* JPinYinUtil.h */,
+				265B898C1A6BB2A800EA2DF3 /* JPinYinUtil.m */,
 			);
 			path = JPinyin;
 			sourceTree = "<group>";
@@ -151,8 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				26467C5D1A67468F00562C33 /* UIImage+Extention.m in Sources */,
-				26467C961A67622700562C33 /* UIView+Extention.m in Sources */,
-				26467C991A6762F900562C33 /* NSString+Extention.m in Sources */,
+				265B89921A6BB2B600EA2DF3 /* NSString+Extention.m in Sources */,
+				265B898D1A6BB2A800EA2DF3 /* JPinYinUtil.m in Sources */,
+				265B89931A6BB2B600EA2DF3 /* UIView+Extention.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,7 +194,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -226,7 +228,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
