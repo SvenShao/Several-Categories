@@ -14,6 +14,7 @@
 		26467C781A6752A000562C33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26467C771A6752A000562C33 /* Images.xcassets */; };
 		26467C7B1A6752A000562C33 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26467C791A6752A000562C33 /* LaunchScreen.xib */; };
 		26467C871A6752A100562C33 /* Several_CategoriesDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26467C861A6752A100562C33 /* Several_CategoriesDemoTests.m */; };
+		26467C931A675B0300562C33 /* UIImage+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 26467C921A675B0300562C33 /* UIImage+Extention.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		26467C801A6752A100562C33 /* Several-CategoriesDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Several-CategoriesDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26467C851A6752A100562C33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26467C861A6752A100562C33 /* Several_CategoriesDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Several_CategoriesDemoTests.m; sourceTree = "<group>"; };
+		26467C911A675B0300562C33 /* UIImage+Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Extention.h"; path = "../../../Several-Categories/Several-Categories/UIImage+Extention.h"; sourceTree = "<group>"; };
+		26467C921A675B0300562C33 /* UIImage+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Extention.m"; path = "../../../Several-Categories/Several-Categories/UIImage+Extention.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		26467C691A6752A000562C33 /* Several-CategoriesDemo */ = {
 			isa = PBXGroup;
 			children = (
+				26467C901A675AF200562C33 /* Src */,
 				26467C6E1A6752A000562C33 /* AppDelegate.h */,
 				26467C6F1A6752A000562C33 /* AppDelegate.m */,
 				26467C711A6752A000562C33 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				26467C851A6752A100562C33 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26467C901A675AF200562C33 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				26467C911A675B0300562C33 /* UIImage+Extention.h */,
+				26467C921A675B0300562C33 /* UIImage+Extention.m */,
+			);
+			name = Src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26467C931A675B0300562C33 /* UIImage+Extention.m in Sources */,
 				26467C731A6752A000562C33 /* ViewController.m in Sources */,
 				26467C701A6752A000562C33 /* AppDelegate.m in Sources */,
 				26467C6D1A6752A000562C33 /* main.m in Sources */,

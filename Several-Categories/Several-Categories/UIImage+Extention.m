@@ -1,5 +1,5 @@
 //
-//  UIImage+LogN.m
+//  UIImage+Extention.m
 //
 //  Created by Rex Sheng on 8/12/13.
 //  Copyright (c) 2013 Log(N). All rights reserved.
